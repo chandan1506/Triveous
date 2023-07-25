@@ -1,6 +1,7 @@
+//<----------------importing CategoryModel--------------->
 const {CategoryModel} = require("../model/CategoryModel")
 
-
+//<---------------- to create Category--------------->
 const createCategory = async (req,res)=>{
     const payload = req.body
     try {
@@ -13,6 +14,7 @@ const createCategory = async (req,res)=>{
     }
 }
 
+//<---------------- to get All Category--------------->
 const getAllCategory = async (req,res)=>{
     try {
         const category = await CategoryModel.find()
@@ -23,4 +25,5 @@ const getAllCategory = async (req,res)=>{
     }
 }
 
+//<----------------exporting--------------->
 module.exports = { createCategory, getAllCategory }
