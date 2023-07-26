@@ -5,7 +5,7 @@ const jwt = require('jsonwebtoken');
 //<----------------dotenv--------------->
 require('dotenv').config()
 //<----------------importing UserModel--------------->
-const {UserModel} = require("../model/userModel");
+const {UserModel} = require("../model/UserModel");
 
 
 
