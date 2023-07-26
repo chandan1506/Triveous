@@ -42,7 +42,7 @@ Status: 200 Created
     }
 
     
-Category Routes
+## Category Routes
 ### Create a new category.
 
 ### POST /category/create
