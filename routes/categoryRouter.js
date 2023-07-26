@@ -6,9 +6,10 @@ const categoryRouter = express.Router();
 const {createCategory, getAllCategory} = require("../controller/category.controller")
 
 
-//<---------------- to create Category--------------->
+                   //<---------------- to create Category--------------->
 categoryRouter.post("/create",createCategory)
-//<----------------to get all category--------------->
+
+                //<----------------to get all category--------------->
 categoryRouter.get("/getAll",getAllCategory)
 
 
