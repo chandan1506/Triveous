@@ -30,7 +30,7 @@ const addToCart = async (req,res)=>{
              // Create a new cart if it doesn't exist
             const newCart = new CartModel({ userID, items: [{ productId, quantity, price }] });
             await newCart.save();
-            res.status(201).json(newCart);
+            res.status(201).json("product added to cart successfully");
         }
     } catch (error) {
         console.log(error.message)

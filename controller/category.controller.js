@@ -7,7 +7,7 @@ const createCategory = async (req,res)=>{
     try {
         const category = new CategoryModel(payload)
         await category.save()
-        res.status(201).json(category)
+        res.status(201).json("category added successfully")
     } catch (error) {
         console.log(error.message);
         res.status(500).json({"error":"failed to create category"})
