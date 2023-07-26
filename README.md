@@ -1,7 +1,7 @@
 # Triveous
 # Endpoints
 ## User Routes
-### POST /register
+### POST user/register
 Register a new user.
 
 ### Request Body:
@@ -21,7 +21,7 @@ Body:{
   "message": "User is Registered"
 }
 
-### POST /login
+### POST user/login
 Login with existing user credentials.
 
 ### Request Body:
@@ -269,3 +269,6 @@ Status: 200 OK Body:
         "totalPrice":19000,
         "date": "2023-07-26T10:15:00.000Z"
       }
+
+  ## demo
+  ### video link:- https://drive.google.com/file/d/1Kit5Os_BfDKBsNxsmSAafEvuWwbof7gq/view?usp=sharing
