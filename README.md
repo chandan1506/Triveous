@@ -1,7 +1,7 @@
 # Triveous
 # Endpoints
 ## User Routes
-### POST /register
+### POST user/register
 Register a new user.
 
 ### Request Body:
@@ -21,7 +21,7 @@ Body:{
   "message": "User is Registered"
 }
 
-### POST /login
+### POST user/login
 Login with existing user credentials.
 
 ### Request Body:
